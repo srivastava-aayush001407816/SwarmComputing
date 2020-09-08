@@ -1,4 +1,4 @@
-#Particle Swarm Optimization
+# Particle Swarm Optimization
 
 The particle swarm optimization was originally presented by Kennedy and Eberhart, it has been compared
 with Genetic Algorithm, it is inspired by social behavior among individuals, these individuals are moving
@@ -15,8 +15,8 @@ velocity-vector vi. Each particle remembers its own best position so far in a ve
 dimensional value is pbest(pid). The best position-vector among the swarm so far is then stored in the
 vector i-th, and its d-th dimensional value is gbest(pgd).
 
-#Running Instructions
--Clone the project
--Download Required JARS
--Put the jars in class path
--Run the project
+# Running Instructions
+- Clone the project
+- Download Required JARS
+- Put the jars in class path
+- Run the project

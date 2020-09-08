@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8080
+ADD target/TSP.jar PSO.jar
+ENTRYPOINT ["java","-jar","/TSP.jar"]

@@ -1,0 +1,22 @@
+-----------------------------------
+			Algorithm PSO
+			-------------
+parameter: 
+	confidenceCoefficent1:0.9
+	confidenceCoefficent2:1.0
+	confidenceCoefficent3:1.0
+	    numberOfSwarms:100
+	numberOfIterations:100
+	         iteration:0
+the shortest path:  561.1523433097597
+w iteration:        null
+Sequentially cities: 
+3 7 4 1 6 8 2 0 5 9 
+
+-----------------------------------
+			Algorithm Firefly
+			-----------------
+parameter: 
+the shortest path:  null
+w iteration:        null
+Sequencially cities: null

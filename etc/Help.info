@@ -1,0 +1,25 @@
+_____Right panel_____
+#	PSO
+confidenceCoefficent1	- coefficient of inertia of the movement of the body
+confidenceCoefficent2	- co-factor of confidence of the particles to the direction of your best position
+confidenceCoefficent3	- coefficient of confidence of the particles to the locus their neighbors
+numberOfSwarms	        - number of particles participating in the simulation
+
+#	Firefly
+beta			        -coefficient of brightness source
+gamma			        -coefficient of absorption of light
+numberOfFireflies	    -number of skylights used to carry out the simulation
+
+------------------------------------
+numberOfIterations	    -number of iterations
+result			        -the shortest path after numberOfIterations or after pressing the STOP button
+File->Load		        -loading parameters from the * .cities file
+File->Save		        -saving to the etc / results directory. Format name: dd_mm_yyy_hh_mm_ss
+or CTRL+S		        -optional, the same as up but shortcut
+File->Save as...	    -the same as the mountain, the only possible choice of place and name
+------------------------------------
+_____Left panel_____
+Refreshed after stopping, shows successively cities in the best path.
+------------------------------------
+_____Bottom panel_____
+Chart drawn every 10% of the number of iterations
